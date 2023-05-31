@@ -1,0 +1,13 @@
+.searchContainer {
+	background-color: white;
+	max-width: 100%;
+	max-height: 90%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 auto;
+}
+
+.searchContainer * {
+	padding: 0.5rem;
+}
