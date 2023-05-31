@@ -1,0 +1,89 @@
+.sign-form {
+	padding-top: 0.5rem;
+	padding-bottom: 1rem;
+	width: 30rem;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	flex-direction: column;
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	border-radius: 0.3rem;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+}
+
+.sign-form * {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.authHeader {
+	font-size: 1.5rem;
+	padding: 1rem 0;
+	font-weight: bold;
+	margin: 0;
+}
+
+.sign-form form {
+	width: 90%;
+}
+
+.sign-form input {
+	border: none;
+	background-color: #f5f5f5;
+	padding: 0.7rem 1rem;
+	border-radius: 0.5rem;
+	width: 90%;
+	margin-bottom: 1rem;
+}
+
+.sign-form h1 {
+	padding-bottom: 1rem;
+}
+
+.sign-form form label {
+	display: flex;
+	align-self: flex-start;
+	margin-bottom: 0.5rem;
+}
+
+.sign-form a {
+	text-decoration: none;
+	display: inline;
+	font-weight: bolder;
+	color: black;
+}
+
+.sign-form div {
+	width: 100%;
+}
+
+.sign-form span {
+	display: inline-block;
+	padding: 0.5rem;
+	font-size: 0.8rem;
+}
+
+.sign-form .error {
+	color: red;
+	padding: 0.5rem;
+}
+
+.sign-form .errorInput {
+	border: 1px solid red;
+}
+
+button[type="submit"]:disabled {
+	background-color: gainsboro;
+	color: grey;
+}
+
+.signBtn {
+	width: 97%;
+	padding: 0.7rem;
+	margin: 1rem;
+}

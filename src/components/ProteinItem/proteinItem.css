@@ -1,0 +1,81 @@
+.protein {
+	display: flex;
+	background-color: white;
+	align-items: center;
+	margin: 0;
+	flex-direction: column;
+	max-width: 100%;
+	padding: 2rem;
+}
+
+.proteinHeader {
+	align-self: flex-start;
+	display: flex;
+	flex-direction: column;
+	max-height: 10%;
+	max-width: 100%;
+}
+
+.proteinHeader * {
+	margin: 0.3rem 0;
+}
+.grey16 {
+	font-size: 1.2rem;
+	color: #616161;
+	font-weight: bold;
+}
+
+.proteinName {
+	display: flex;
+	flex-direction: row;
+}
+
+.proteinAccession {
+	font-size: 2rem;
+}
+
+.proteinScientificName {
+	margin-left: 1.5rem;
+}
+
+.proteinLinks {
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	margin-bottom: 1rem;
+}
+
+.proteinLinks a {
+	font-size: 1.5rem;
+	margin-right: 1.5rem;
+	text-decoration: none;
+	color: gray;
+}
+
+.proteinSequence {
+	word-wrap: break-word;
+	max-width: 100%;
+	background-color: rgb(225, 225, 236);
+	padding: 1rem;
+}
+
+.proteinExtraDetails {
+	max-width: 100%;
+	border-radius: 0.5rem;
+}
+
+.copyButton {
+	width: 1.5rem;
+	align-self: flex-end;
+	margin-bottom: 0.5rem;
+}
+
+.copyButton img {
+	width: 100%;
+	height: 100%;
+}
+
+a.activeClass {
+	color: darkblue;
+	border-bottom: 0.2rem solid darkblue;
+}
